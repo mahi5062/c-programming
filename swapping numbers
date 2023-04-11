@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+    int a,b,temp;
+    printf("enter 1st element");
+    scanf("%d",&a);
+    printf("enter 2nd element");
+    scanf("%d",&b);
+    temp=a;
+    a=b;
+    b=temp;
+    printf("the swap number is=%d",a);
+    printf("the swap number is=%d",b);
+    return 0;
+}
